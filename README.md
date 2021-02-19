@@ -1,2 +1,2 @@
-# ConvivaBrightcove
-ConvivaBrightcove
+# conviva-release-brightcove
+
