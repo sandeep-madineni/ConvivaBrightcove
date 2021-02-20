@@ -17,14 +17,14 @@ let package = Package(
             checksum: "28aa6dad71c03851ded14c10bd0d621c19256ce8740ced254c49427658296239"),
         
         .binaryTarget(
-            name: "ConvivaSDK",
-            url: "https://github.com/sandeep-madineni/ConvivaLibs/raw/main/ConvivaSDK/1.0.0/ConvivaSDK.xcframework.zip",
-            checksum: "a2786cb0ce33c0277c586030c94d2076a6afd028eab3c416ee78c96d800673b6"),
+//            name: "ConvivaSDK",
+//            url: "https://github.com/sandeep-madineni/ConvivaLibs/raw/main/ConvivaSDK/1.0.0/ConvivaSDK.xcframework.zip",
+//            checksum: "a2786cb0ce33c0277c586030c94d2076a6afd028eab3c416ee78c96d800673b6"),
 
         .target(
               name: "ConvivaBrightcoveTarget",
               dependencies: [
-                .target(name: "ConvivaSDK"),
+                //.target(name: "ConvivaSDK"),
                 .target(name: "ConvivaBrightcove")
               ],
               path: "PlatformExcludes"
