@@ -24,7 +24,7 @@ let package = Package(
         .target(
               name: "ConvivaBrightcoveTarget",
               dependencies: [
-                .target(name: "ConvivaSDK"),
+                //.target(name: "ConvivaSDK"),
                 .target(name: "ConvivaBrightcove")
               ],
               path: "PlatformExcludes"
